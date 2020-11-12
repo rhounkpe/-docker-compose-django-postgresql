@@ -7,4 +7,5 @@
 # as specified by the build: . line in docker-compose.yml.
 # Once the web service image is built, Compose runs it and executes the django-admin startproject command
 # in the container.
-sudo docker-compose run web django-admin startproject docker-compose-django-postgresql .
+# sudo docker-compose run web django-admin startproject docker-compose-django-postgresql .
+docker-compose run web django-admin startproject composedjango .
